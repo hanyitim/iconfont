@@ -1,0 +1,1 @@
+export const MSG_ERROR_NOT_ZIP = "请上传zip格式文件";

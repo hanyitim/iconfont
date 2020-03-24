@@ -1,0 +1,14 @@
+production/
+node_modules/
+dist/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
+.vscode/
+zip/
+upzip/
+config/
+dist/
+interim/
+deploy.js

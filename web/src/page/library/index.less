@@ -1,0 +1,44 @@
+
+.moduleTitle{
+    color: #fff;
+    margin-right: 10px;
+    // padding: 10px 0px;;
+}
+.slideBox{
+    display: flex;
+}
+.module{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    .settingItem{
+        padding: 5px;
+        color: #fff;
+    }
+}
+.operation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    &>div{
+        margin: 0 10px;
+    }
+}
+.content{
+    position: absolute;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 60px;
+    left: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'loogggg';
+  src:  url('fonts/loogggg.eot?rsqc1d');
+  src:  url('fonts/loogggg.eot?rsqc1d#iefix') format('embedded-opentype'),
+    url('fonts/loogggg.ttf?rsqc1d') format('truetype'),
+    url('fonts/loogggg.woff?rsqc1d') format('woff'),
+    url('fonts/loogggg.svg?rsqc1d#loogggg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'loogggg' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-barcode:before {
+  content: "\1f30a";
+}
+.icon-qrcode:before {
+  content: "\e938";
+}
+.icon-sleepy:before {
+  content: "\1f383";
+}
